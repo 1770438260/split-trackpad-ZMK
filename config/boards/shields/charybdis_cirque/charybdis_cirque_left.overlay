@@ -11,7 +11,7 @@
         ;
 };
 
-&i2c0 {
+&i2c {
     status = "okay";
 
     trackpad@3c {
