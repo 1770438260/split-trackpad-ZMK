@@ -11,7 +11,7 @@
         ;
 };
 
-trackpad@3c {
+&trackpad@3c {
     compatible = "cirque,pinnacle";
     status = "okay";
     label = "trackpad";
