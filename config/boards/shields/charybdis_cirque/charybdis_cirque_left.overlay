@@ -11,11 +11,11 @@
         ;
 };
 
-&trackpad@3c {
+&pro_micro_i2c@2a {
     compatible = "cirque,pinnacle";
     status = "okay";
     label = "trackpad";
-    reg = <3c>;
+    reg = <0x2a>;
     dr-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
     //rotate-90;
     //sleep;
