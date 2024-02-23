@@ -11,19 +11,15 @@
         ;
 };
 
-&i2c {
+trackpad@3c {
+    compatible = "cirque,pinnacle";
     status = "okay";
-
-    trackpad@3c {
-	compatible = "cirque,pinnacle";
-        status = "okay";
-        label = "trackpad";
-        reg = <3c>;
-        dr-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
-	    //rotate-90;
-	    //sleep;
-	    //no-taps;
-    };
+    label = "trackpad";
+    reg = <3c>;
+    dr-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
+    //rotate-90;
+    //sleep;
+    //no-taps;
 };
 
 
