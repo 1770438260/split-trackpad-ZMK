@@ -14,11 +14,11 @@
 &i2c0 {
     status = "okay";
 
-    trackpad@2a {
+    trackpad@3c {
 	compatible = "cirque,pinnacle";
         status = "okay";
         label = "trackpad";
-        reg = <2>;
+        reg = <3c>;
         dr-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
 	    //rotate-90;
 	    //sleep;
